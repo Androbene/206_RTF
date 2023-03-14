@@ -1,4 +1,4 @@
-package ua.androbene.a206_retrofit_first
+package ua.androbene.a206_retrofit_first.retrofit_GetNames
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
@@ -8,6 +8,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import ua.androbene.a206_retrofit_first.User
 
 class UserViewModel : ViewModel() {
     val users = MutableLiveData<List<User>>()
